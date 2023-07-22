@@ -9,15 +9,16 @@
 <body>
     
     <h1>ROCK, PAPER, SCISSORS!</h1><br>
-    <!--<label for="fname">Input:</label>
-    <input type="text" id="playerSelection" name="playerSelection"><br>
-    <button onclick="play()">Play!!!</button> -->
-    
-    <script>
-        game();
-        // const playerSelection = "Paper";
-        // const computerSelection = getComputerChoice();
-        // playRound(playerSelection, computerSelection);
-    </script>
+
+    <button class="buttons" onclick="game('Rock')">Rock</button>
+    <button class="buttons" onclick="game('Paper')">Paper</button>
+    <button class="buttons" onclick="game('Scissors')">Scissors</button>
+   
+    <div>
+        <h3 id="result"></h3>
+        <p id="rezIgr"></p>
+        <p> - </p>
+        <p id="rezComp"></p>
+    </div>
 </body>
 </html>
